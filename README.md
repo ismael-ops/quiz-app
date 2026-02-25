@@ -149,7 +149,7 @@ Base de données (SQLite)
 | createdAt | DATE | Date de participation |
 
 
-## 🚀 Installation et lancement
+## 🚀 Installation et lancement de l'application
 
 
 ```bash
@@ -167,16 +167,16 @@ python app.py
 cd quiz-ui
 npm install
 npm run serve
+```
 
 ## 📌 Améliorations possibles
 
 - Mode chronométré
 - Leaderboard global dynamique
 - Mode multijoueur
-- Déploiement Cloud (AWS / GCP)
+- Déploiement Cloud (GCP)
 - Conteneurisation Docker
 
 ## 👨‍💻 Auteur
 
-Ismaïla Sylla
-Ingénieur en informatique
+Ismaïla Sylla - Ingénieur en informatique
