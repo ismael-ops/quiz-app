@@ -3,7 +3,6 @@
 > Application Web Full-Stack de quiz dédiée à l’univers de **Shingeki no Kyojin (Attack on Titan)**.  
 > Réalisée dans le cadre du projet **E4FI – Développement Web Full Stack 2023-2024**.
 
----
 
 ## 📚 Table des matières
 
@@ -17,7 +16,6 @@
 - [📌 Améliorations possibles](#-améliorations-possibles)
 - [👨‍💻 Auteur](#-auteur)
 
----
 
 ## 📖 Introduction
 
@@ -32,7 +30,6 @@ L’application propose :
 
 L’objectif est de proposer une expérience ludique, fluide et interactive tout en respectant une architecture full-stack propre et scalable.
 
----
 
 ## 🎯 Contexte du projet
 
@@ -48,7 +45,6 @@ L’objectif pédagogique était de :
 - Appliquer une architecture claire et modulaire
 - Respecter un cahier des charges précis
 
----
 
 ## ⚙️ Fonctionnalités
 
@@ -77,8 +73,6 @@ L’objectif pédagogique était de :
 - CRUD des réponses
 - Gestion des participants
 - Routes testées via Postman
-
----
 
 ## 🛠️ Technologies utilisées
 
@@ -122,8 +116,6 @@ Base de données (SQLite)
 - Backend → Logique métier + API REST
 - Database → Stockage des données
 
----
-
 ## 🗄️ Schéma de la base de données
 
 ### 📌 Table `Questions`
@@ -136,8 +128,6 @@ Base de données (SQLite)
 | image | BLOB | Image associée |
 | pos | INTEGER | Ordre d’affichage |
 
----
-
 ### 📌 Table `Answers`
 
 | Champ | Type | Description |
@@ -148,11 +138,6 @@ Base de données (SQLite)
 | isCorrect | BOOLEAN | Indique si la réponse est correcte |
 | pos | INTEGER | Ordre d’affichage |
 
-Relation :  
-Une question possède plusieurs réponses.  
-Une réponse appartient à une seule question.
-
----
 
 ### 📌 Table `Participants`
 
@@ -163,7 +148,6 @@ Une réponse appartient à une seule question.
 | score | INTEGER | Score obtenu |
 | createdAt | DATE | Date de participation |
 
----
 
 ## 🚀 Installation et lancement
 
