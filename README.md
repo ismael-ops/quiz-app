@@ -167,9 +167,9 @@ Une réponse appartient à une seule question.
 
 ## 🚀 Installation et lancement
 
-### 1️⃣ Cloner le projet
 
 ```bash
+## 1️⃣ Cloner le projet
 git clone https://github.com/ismael-ops/quiz-app.git
 cd quiz-app
 
@@ -189,7 +189,6 @@ npm run serve
 - Mode chronométré
 - Leaderboard global dynamique
 - Mode multijoueur
-- Images dynamiques des personnages SNK
 - Déploiement Cloud (AWS / GCP)
 - Conteneurisation Docker
 
@@ -197,9 +196,3 @@ npm run serve
 
 Ismaïla Sylla
 Ingénieur en informatique
-
-## 🎨 Aperçu de l'application
-
-![Home](./screenshots/home.png)
-![Quiz](./screenshots/quiz.png)
-![Results](./screenshots/results.png)
