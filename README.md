@@ -16,6 +16,7 @@
 - [📌 Améliorations possibles](#-améliorations-possibles)
 - [👨‍💻 Auteur](#-auteur)
 
+---
 
 ## 📖 Introduction
 
@@ -30,6 +31,7 @@ L’application propose :
 
 L’objectif est de proposer une expérience ludique, fluide et interactive tout en respectant une architecture full-stack propre et scalable.
 
+---
 
 ## 🎯 Contexte du projet
 
@@ -45,6 +47,7 @@ L’objectif pédagogique était de :
 - Appliquer une architecture claire et modulaire
 - Respecter un cahier des charges précis
 
+---
 
 ## ⚙️ Fonctionnalités
 
@@ -73,6 +76,8 @@ L’objectif pédagogique était de :
 - CRUD des réponses
 - Gestion des participants
 - Routes testées via Postman
+
+---
 
 ## 🛠️ Technologies utilisées
 
@@ -180,3 +185,10 @@ npm run serve
 ## 👨‍💻 Auteur
 
 Ismaïla Sylla - Ingénieur en informatique
+
+
+## 🎨 Aperçu de l'application
+
+![Home](./screenshots/home.png)
+![Quiz](./screenshots/quiz.png)
+![Results](./screenshots/results.png)
